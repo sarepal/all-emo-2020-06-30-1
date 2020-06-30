@@ -1,0 +1,126 @@
+{
+    "label": "All'Emo., e Rmo. Sigr. Pne. Colmo., Il Sig.r Cardinale Alessandro Albani Emo., e Rmo. pri",
+    "related": [
+        "https://readux.ecdsdev.org/volume/readux:thgg7/page/all"
+    ],
+    "viewingDirection": "left-to-right",
+    "logo": "https://readux.ecdsdev.org/media/logos/lits-logo-web_RQSeGem.png",
+    "thumbnail": {
+        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/600,/0/default.jpg",
+        "service": {
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2"
+        }
+    },
+    "viewingHint": "paged",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/sequence/normal",
+            "canvases": [
+                {
+                    "label": "1",
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "width": 13088,
+                    "otherContent": [
+                        {
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text",
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/list/readux:thgg7_00000001.jp2"
+                        },
+                        {
+                            "label": "Annotations by sarepal-github",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/readux:thgg7/list/readux:thgg7_00000001.jp2"
+                        }
+                    ],
+                    "@type": "sc:Canvas",
+                    "thumbnail": {
+                        "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/200,/0/default.jpg",
+                        "width": 200,
+                        "height": 250
+                    },
+                    "@id": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.ecdsdev.org/iiif/readux:thgg7/annotation/readux:thgg7_00000001.jp2",
+                            "on": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2",
+                            "@type": "oa:Annotation",
+                            "resource": {
+                                "format": "image/jpeg",
+                                "width": 13088,
+                                "@type": "dctypes:Image",
+                                "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2/full/full/0/default.jpg",
+                                "service": {
+                                    "profile": "https://iiif.io/api/image/2/level2.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.ecds.emory.edu:8443/cantaloupe/iiif/2/readux:thgg7_00000001.jp2"
+                                },
+                                "height": 9061
+                            },
+                            "motivation": "sc:painting"
+                        }
+                    ],
+                    "height": 9061
+                }
+            ],
+            "startCanvas": "https://readux.ecdsdev.org/iiif/readux:thgg7/canvas/readux:thgg7_00000001.jp2"
+        }
+    ],
+    "within": [
+        "https://readux.ecdsdev.org/collection/views-of-rome"
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "attribution": "Emory University Libraries",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Nolli, Giambattista, approximately 1692-1756."
+        },
+        {
+            "label": "Publisher",
+            "value": "Gio. Battista Nolli"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Roma"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1748"
+        },
+        {
+            "label": "Notes",
+            "value": [
+                {}
+            ]
+        },
+        {
+            "label": "Record Created",
+            "value": "2019-04-01T14:41:06.798Z"
+        },
+        {
+            "label": "Edition Type",
+            "value": "Readux IIIF Exported Edition"
+        },
+        {
+            "label": "About Readux",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Annotators",
+            "value": "Sara E. Palmer"
+        },
+        {
+            "label": "Export Date",
+            "value": "2020-06-30T14:28:38.738"
+        }
+    ],
+    "description": "The online edition of this book in the public domain, i.e., not protected by copyright, has been produced by the Emory University Digital Library Publications Program. \"D.V.E. Roma il di primo del 1748\". Relief shown by hachures. \"33-34\". Shows names of buildings, plazas, churches, drainage, and other points of interest. Includes index. Variant titles: Picciola Pianta, la nuova topografia di Roma; Picciola Pianta di Roma; Topografia Di Roma Di Gio. Batt[ist]a Nolli dalla maggiore in questa minor tavola dal medesimo ridotta; Topografia Di Roma. Related Names: Giovanni Battista Piranesi 1720-1778.; Carlo Nolli -approximately 1770.",
+    "@type": "sc:Manifest",
+    "@id": "https://readux.ecdsdev.org/iiif/v2/readux:thgg7/manifest",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}
